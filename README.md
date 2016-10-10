@@ -1,6 +1,10 @@
 # said
 Run CLI commands and return the response
 
+## Install
+```
+npm install said --save
+```
 
 ## Example
 ```js
