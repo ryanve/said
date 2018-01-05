@@ -1,6 +1,6 @@
 {
   "name": "said",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run CLI commands and return the response",
   "main": "said.js",
   "scripts": {
