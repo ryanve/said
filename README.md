@@ -2,11 +2,13 @@
 Run CLI commands and return the response
 
 ## Install
+
 ```
 npm install said
 ```
 
 ## Example
+
 ```js
 const said = require("said")
 
