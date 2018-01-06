@@ -4,7 +4,7 @@
   "description": "Run CLI commands and return the response",
   "main": "said.js",
   "scripts": {
-    "pretest": "jshint said.js && jshint test.js",
+    "pretest": "eslint .",
     "test": "node test.js"
   },
   "author": "Ryan Van Etten",
@@ -39,7 +39,7 @@
     "unused": true
   },
   "devDependencies": {
-    "jshint": "^2.9.3"
+    "eslint": "^4.14.0"
   },
   "dependencies": {
     "fm": "^0.6.0"
