@@ -1,6 +1,4 @@
-function ok(actual, correct) {
-  if (actual !== correct) throw new Error(actual + " should be " + correct)
-}
+const said = require("./")
+const assert = require("assert")
 
-var said = require("./");
-ok(said("npm view fm name"), "fm");
+assert.strictEqual(said("npm view said name"), "said")
