@@ -8,9 +8,10 @@ npm install said --save
 
 ## Example
 ```js
-var said = require('said')
+const said = require("said")
 
-said('node -v') // 'v4.5.0'
+said("node -v") // "v8.3.0"
+said("npm -v") // "v5.6.0"
 ```
 
 ## License
