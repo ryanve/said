@@ -1,7 +1,7 @@
 {
   "name": "said",
   "version": "0.1.1",
-  "description": "Run CLI commands and return the response",
+  "description": "Run CLI commands and return output as string",
   "main": "said.js",
   "scripts": {
     "pretest": "eslint .",
@@ -11,11 +11,14 @@
   "license": "MIT",
   "homepage": "https://github.com/ryanve/said#readme",
   "keywords": [
+    "capture",
     "child_process",
+    "cli",
     "command",
     "commands",
-    "cli",
-    "server",
+    "exec",
+    "output",
+    "stdout",
     "run"
   ],
   "repository": {
@@ -27,6 +30,5 @@
   },
   "devDependencies": {
     "eslint": "^4.14.0"
-  },
-  "dependencies": {}
+  }
 }

@@ -1,12 +1,14 @@
 # said
-Run CLI commands and return the response
+Run CLI commands and return output as string
 
-## Install
+## install
+
 ```
-npm install said --save
+npm install said
 ```
 
-## Example
+## example
+
 ```js
 const said = require("said")
 
@@ -14,5 +16,5 @@ said("node -v") // "v8.3.0"
 said("npm -v") // "v5.6.0"
 ```
 
-## License
+## license
 MIT
