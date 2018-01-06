@@ -3,7 +3,7 @@ Run CLI commands and return the response
 
 ## Install
 ```
-npm install said --save
+npm install said
 ```
 
 ## Example
