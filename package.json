@@ -1,7 +1,7 @@
 {
   "name": "said",
   "version": "0.1.1",
-  "description": "Run CLI commands and return the response",
+  "description": "Run CLI commands and return output as string",
   "main": "said.js",
   "scripts": {
     "pretest": "eslint .",
