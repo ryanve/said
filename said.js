@@ -1,12 +1,9 @@
-function trim(x) {
-  return String(x).trim()
-}
+const cp = require("child_process")
+const run = command => cp.execSync(command)
+const trim = output => String(output).trim()
+const said = command => trim(run(command))
 
-var fm = require("fm")
-var cp = require("child_process")
-var run = fm.bind(cp.execSync, cp)
-var said = fm.flow(run, trim)
+said.run = run
+said.trim = trim
 
-said.run = run;
-said.trim = trim;
 module.exports = said;
