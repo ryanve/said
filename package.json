@@ -25,19 +25,6 @@
   "bugs": {
     "url": "https://github.com/ryanve/said/issues"
   },
-  "jshintConfig": {
-    "asi": true,
-    "boss": true,
-    "browser": false,
-    "eqnull": true,
-    "expr": true,
-    "supernew": true,
-    "latedef": "nofunc",
-    "maxerr": 5,
-    "node": true,
-    "undef": true,
-    "unused": true
-  },
   "devDependencies": {
     "eslint": "^4.14.0"
   },
