@@ -1,5 +1,5 @@
 # said
-Run CLI commands and return the response
+Run CLI commands and return output as string
 
 ## install
 
