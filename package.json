@@ -4,8 +4,8 @@
   "description": "Run CLI commands and return the response",
   "main": "said.js",
   "scripts": {
-    "pretest": "jshint said.js && jshint test.js",
-    "test": "node test.js"
+    "pretest": "eslint .",
+    "test": "node test"
   },
   "author": "Ryan Van Etten",
   "license": "MIT",
@@ -25,21 +25,8 @@
   "bugs": {
     "url": "https://github.com/ryanve/said/issues"
   },
-  "jshintConfig": {
-    "asi": true,
-    "boss": true,
-    "browser": false,
-    "eqnull": true,
-    "expr": true,
-    "supernew": true,
-    "latedef": "nofunc",
-    "maxerr": 5,
-    "node": true,
-    "undef": true,
-    "unused": true
-  },
   "devDependencies": {
-    "jshint": "^2.9.3"
+    "eslint": "^4.14.0"
   },
   "dependencies": {
     "fm": "^0.6.0"
