@@ -11,10 +11,24 @@ npm install said
 
 ```js
 const said = require("said")
+```
 
+### capturing command output
+
+```js
 said("node -v") // "v8.3.0"
 said("npm -v") // "v5.6.0"
 ```
+
+### commands in conditionals
+
+```js
+if (said("git diff")) {
+  said("git add .")
+}
+```
+
+### notes
 
 - Runs synchronously
 - Returns a trim string
