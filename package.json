@@ -5,7 +5,7 @@
   "main": "said.js",
   "scripts": {
     "pretest": "eslint .",
-    "test": "node test.js"
+    "test": "node test"
   },
   "author": "Ryan Van Etten",
   "license": "MIT",
