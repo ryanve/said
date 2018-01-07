@@ -34,6 +34,3 @@ if (said("git diff")) {
 - Returns a trim string
 - Buffers or other outputs convert to string
 - Trims the output string before returning
-
-## license
-MIT

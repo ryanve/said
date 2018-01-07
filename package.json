@@ -8,7 +8,7 @@
     "test": "node test"
   },
   "author": "Ryan Van Etten",
-  "license": "MIT",
+  "license": "CC0-1.0",
   "homepage": "https://github.com/ryanve/said#readme",
   "keywords": [
     "capture",
